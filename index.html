@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Unit Converter Clone</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <select id="selector-1">
+      <option value='temperature'>Temperature</option>
+      <option value='distance'>Distance</option>
+      <option value='length'>Length</option>
+      <option value='weight'>Weight</option>
+      <option value='time'>Time</option>
+    </select>
+
+  <!-- <div class ="row-1"> -->
+  <div>
+
+    <input type="textbox" id="input-left" value="212">
+    <div class="equals">=</div>
+    <input type="textbox" id="input-right" value="100">
+
+    <label id="label-left" for="input-left" class="select-label">
+      Fahrenheit
+    </label>
+
+    <label id="label-right" for="input-right" class="select-label" style="margin-left:24px;">
+      Celsius
+    </label>
+
+    <!-- <div id="output"></div> -->
+  </div>
+
+    <!-- <select id="selector-2">
+      <option value = 'fahreinheit'>Fahreinheit/Celsius</option>
+      <option value='ft'>Feet/Miles</option>
+      <option value='cm'>Cm/Ft</option>
+      <option value='kg'>Kg/Lb</option>
+      <option value='sec'>Sec/time of day</option>
+    </select> -->
+ 
+    <!-- <button id="btn-1">
+      convert
+    </button> -->
+
+    <p>
+      <span>Formula</span><span id="formula">(32°F − 32) × 5/9 = 0°C</span>
+    </p>
+
+  </div>
+
+  <script src="js/unit-converter.js"></script>
+
+
+</body>
+
+</html>
